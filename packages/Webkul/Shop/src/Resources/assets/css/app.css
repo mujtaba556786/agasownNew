@@ -44,7 +44,7 @@
     }
 
     .icon-arrow-down:before {
-        content: "\e901";
+        content: "\2325";
     }
 
     .icon-arrow-left-stylish:before {
@@ -364,11 +364,11 @@
     }
 
     .primary-button {
-        @apply font-medium rounded-[12px] text-white bg-navyBlue border border-navyBlue px-[30px] py-[15px] max-w-max cursor-pointer transition-all hover:opacity-[0.9];
+        @apply font-medium rounded-[12px] text-white bg-darkPurple border border-darkPurple px-[30px] py-[15px] max-w-max cursor-pointer transition-all hover:opacity-[0.9];
     }
     
     .secondary-button {
-        @apply font-medium rounded-[12px] bg-white text-navyBlue border border-navyBlue  px-[30px] py-[15px] max-w-max cursor-pointer transition-all hover:bg-[#050e3a0d];
+        @apply font-medium rounded-[12px] bg-white text-darkPurple border border-darkPurple  px-[30px] py-[15px] max-w-max cursor-pointer transition-all hover:bg-[#DF3165];
     }
 
     .shimmer {

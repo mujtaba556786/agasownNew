@@ -16,7 +16,7 @@
             <v-currency-switcher></v-currency-switcher>
         </x-slot:content>
     </x-shop::dropdown>
-    <p class="text-[14px]">
+    <p class="text-[16px]">
         @lang('shop::app.components.layouts.header.free-shipping-text')
     </p>    
 

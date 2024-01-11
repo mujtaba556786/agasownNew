@@ -10,6 +10,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "flowbite": "^2.2.1",
         "tailwindcss-gradients": "^3.0.0"
     }
 }

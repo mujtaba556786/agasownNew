@@ -29,8 +29,9 @@ module.exports = {
 
         extend: {
             colors: {
-                navyBlue: "#060C3B",
-                lightOrange: "#F6F2EB",
+                darkPurple:"#3F183B",
+                navyBlue: "#3F183B",
+                lightOrange: "#DF3165",
             },
 
             fontFamily: {
