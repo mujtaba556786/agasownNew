@@ -6,9 +6,9 @@
 @endPush
 
 <x-shop::layouts
-    :has-header="false"
+    :has-header="true"
     :has-feature="false"
-    :has-footer="false"
+    :has-footer="true"
 >
     {{-- Page Title --}}
     <x-slot:title>
@@ -17,20 +17,6 @@
 
 	<div class="container mt-20 max-1180:px-[20px]">
         {{-- Company Logo --}}
-        <div class="flex gap-x-[54px] items-center max-[1180px]:gap-x-[35px]">
-            <a
-                href="{{ route('shop.home.index') }}"
-                class="m-[0_auto_20px_auto]"
-                aria-label="Bagisto "
-            >
-                <img
-                    src="{{ bagisto_asset('images/logo.svg') }}"
-                    alt="Bagisto "
-                    width="131"
-                    height="29"
-                >
-            </a>
-        </div>
 
         {{-- Form Container --}}
 		<div

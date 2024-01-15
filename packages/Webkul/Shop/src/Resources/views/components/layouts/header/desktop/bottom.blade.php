@@ -151,7 +151,7 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="container px-6 py-6" v-else>
+                <div class="container mx-auto" v-else>
                     <div>
                         <ul v-for="category in categories">
                             <li class="relative border-b-[4px] border-transparent hover:border-b-[4px] hover:border-navyBlue">
