@@ -1,14 +1,14 @@
-<div class="flex justify-between items-center w-full py-[11px] px-16 border border-t-0 border-b-[1px] border-l-0 border-r-0">
+<div class="flex justify-between items-center w-full py-[11px] px-11 border border-t-0 border-b-[1px] border-l-0 border-r-0">
     {{-- Currency Switcher --}}
     <x-shop::dropdown>
         <!-- Dropdown Toggler -->
         <x-slot:toggle>
-            <div class="flex gap-[10px] cursor-pointer">
+            <div class="flex gap-[10px] cursor-pointer text-navyBlue">
                 <span>
                     {{ core()->getCurrentCurrency()->symbol . ' ' . core()->getCurrentCurrencyCode() }}
                 </span>
 
-                <span class="text-[24px] icon-arrow-down"></span>
+                <span class="text-[24px]"></span>
             </div>
         </x-slot:toggle>
         <!-- Dropdown Content -->
@@ -16,7 +16,7 @@
             <v-currency-switcher></v-currency-switcher>
         </x-slot:content>
     </x-shop::dropdown>
-    <p class="text-[16px]">
+    <p class="text-[16px] text-navyBlue">
         @lang('shop::app.components.layouts.header.free-shipping-text')
     </p>    
 

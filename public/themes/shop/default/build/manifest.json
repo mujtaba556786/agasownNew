@@ -1,6 +1,6 @@
 {
   "src/Resources/assets/css/app.css": {
-    "file": "assets/app-de506919.css",
+    "file": "assets/app-823d7857.css",
     "isEntry": true,
     "src": "src/Resources/assets/css/app.css"
   },
@@ -44,6 +44,10 @@
     "file": "assets/medium-product-placeholder-3b1a7b7d.webp",
     "src": "src/Resources/assets/images/medium-product-placeholder.webp"
   },
+  "src/Resources/assets/images/menu.svg": {
+    "file": "assets/menu-ce62b2a4.svg",
+    "src": "src/Resources/assets/images/menu.svg"
+  },
   "src/Resources/assets/images/money-transfer.png": {
     "file": "assets/money-transfer-115da55a.png",
     "src": "src/Resources/assets/images/money-transfer.png"
@@ -84,7 +88,7 @@
     "css": [
       "assets/app-05f8acf7.css"
     ],
-    "file": "assets/app-aa4b60e6.js",
+    "file": "assets/app-63ffc5c8.js",
     "isEntry": true,
     "src": "src/Resources/assets/js/app.js"
   }
