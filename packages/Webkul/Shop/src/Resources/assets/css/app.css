@@ -12,13 +12,16 @@
 
 @layer components {
     .topHeader {
-        background: #8D7D98;
+        background: rgb(141,125,152);
+        background: linear-gradient(146deg, rgba(141,125,152,1) 32%, rgba(209,203,213,1) 88%, rgba(255,255,255,1) 100%);
     }
     .header {
-        background: transparent linear-gradient(0deg, #d5b167 0%, #f3da9c 47%, #e5b644 100%) 0% 0% no-repeat padding-box;
+        background: rgb(229,182,68);
+        background: linear-gradient(90deg, rgba(229,182,68,1) 0%, rgba(243,218,156,1) 51%, rgba(213,177,103,1) 79%);
     }
     .footer {
-        background: transparent linear-gradient(0deg, #d5b167 0%, #f3da9c 47%, #e5b644 100%) 0% 0% no-repeat padding-box;
+        background: rgb(229,182,68);
+        background: linear-gradient(90deg, rgba(229,182,68,1) 0%, rgba(243,218,156,1) 51%, rgba(213,177,103,1) 79%);
     }
 
     input {
