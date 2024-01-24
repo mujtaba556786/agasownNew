@@ -1,5 +1,5 @@
 <div
-    class="w-full flex justify-between  px-[60px] border border-t-0 border-b-[1px] border-l-0 border-r-0 max-1180:px-[30px]">
+    class="header w-full flex justify-between  px-[60px] border border-t-0 border-b-[1px] border-l-0 border-r-0 max-1180:px-[30px]">
     {{--
         This section will provide categories for the first, second, and third levels. If
         additional levels are required, users can customize them according to their needs.

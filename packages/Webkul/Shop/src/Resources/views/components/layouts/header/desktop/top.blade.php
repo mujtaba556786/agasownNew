@@ -1,4 +1,4 @@
-<div class="flex justify-between items-center w-full py-[11px] px-11 border border-t-0 border-b-[1px] border-l-0 border-r-0">
+<div class="topHeader flex justify-between items-center w-full py-[11px] px-11 border border-t-0 border-b-[1px] border-l-0 border-r-0">
     {{-- Currency Switcher --}}
     <x-shop::dropdown>
         <!-- Dropdown Toggler -->
@@ -8,7 +8,7 @@
                     {{ core()->getCurrentCurrency()->symbol . ' ' . core()->getCurrentCurrencyCode() }}
                 </span>
 
-                <span class="text-[24px]"></span>
+                <span class="icon-arrow-down text-[24px]"></span>
             </div>
         </x-slot:toggle>
         <!-- Dropdown Content -->
