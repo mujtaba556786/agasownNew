@@ -20,7 +20,7 @@
 
         {{-- Form Container --}}
 		<div
-			class="w-full max-w-[870px] m-auto px-[90px] py-[60px] border border-[#E9E9E9] rounded-[12px] max-md:px-[30px] max-md:py-[30px]"
+			class="text-navyBlue w-full max-w-[870px] m-auto px-[90px] py-[60px] border border-[#E9E9E9] rounded-[12px] max-md:px-[30px] max-md:py-[30px]"
         >
 			<h1 class="text-[40px] font-dmserif max-sm:text-[25px]">
                 @lang('shop::app.customers.signup-form.page-title')

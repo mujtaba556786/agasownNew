@@ -156,7 +156,7 @@
                     {{-- Guest Dropdown --}}
                     @guest('customer')
                         <x-slot:content>
-                            <div class="grid gap-[10px]">
+                            <div class="text-navyBlue grid gap-[10px]">
                                 <p class="text-[20px] font-dmserif">
                                     @lang('shop::app.components.layouts.header.welcome-guest')
                                 </p>
@@ -168,7 +168,7 @@
 
                             <p class="w-full mt-[12px] py-2px border border-[#E9E9E9]"></p>
 
-                            <div class="flex gap-[16px] mt-[25px]">
+                            <div class="text-navyBlue flex gap-[16px] mt-[25px]">
                                 <a
                                     href="{{ route('shop.customer.session.create') }}"
                                     class="block w-max mx-auto m-0 ml-[0px] py-[15px] px-[29px] bg-navyBlue rounded-[18px] text-white text-base font-medium text-center cursor-pointer"
@@ -189,7 +189,7 @@
                     {{-- Customers Dropdown --}}
                     @auth('customer')
                         <x-slot:content class="!p-[0px]">
-                            <div class="grid gap-[10px] p-[20px] pb-0">
+                            <div class="text-navyBlue grid gap-[10px] p-[20px] pb-0">
                                 <p class="text-[20px] font-dmserif">
                                     @lang('shop::app.components.layouts.header.welcome')’
                                     {{ auth()->guard('customer')->user()->first_name }}

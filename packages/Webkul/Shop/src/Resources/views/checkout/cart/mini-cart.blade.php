@@ -23,12 +23,12 @@
             <!-- Drawer Header -->
             <x-slot:header>
                 <div class="flex justify-between items-center">
-                    <p class="text-[26px] font-medium">
+                    <p class="text-[26px] font-medium text-navyBlue">
                         @lang('shop::app.checkout.cart.mini-cart.shopping-cart')
                     </p>
                 </div>
 
-                <p class="text-[16px]">
+                <p class="text-[16px] text-navyBlue">
                     @lang('shop::app.checkout.cart.mini-cart.offer-on-orders')
                 </p>
             </x-slot:header>
@@ -37,7 +37,7 @@
             <x-slot:content>
                 <!-- Cart Item Listing -->
                 <div 
-                    class="grid gap-[50px] mt-[35px]" 
+                    class="grid gap-[50px] mt-[35px] text-navyBlue" 
                     v-if="cart?.items?.length"
                 >
                     <div 

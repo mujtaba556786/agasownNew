@@ -43,7 +43,7 @@
                 {{-- Guest Dropdown --}}
                 @guest('customer')
                     <x-slot:content>
-                        <div class="grid gap-[10px]">
+                        <div class="text-navyBlue grid gap-[10px]">
                             <p class="text-[20px] font-dmserif">
                                 @lang('shop::app.components.layouts.header.welcome-guest')
                             </p>
@@ -72,7 +72,7 @@
                 {{-- Customers Dropdown --}}
                 @auth('customer')
                     <x-slot:content class="!p-[0px]">
-                        <div class="grid gap-[10px] p-[20px] pb-0">
+                        <div class="text-navyBlue grid gap-[10px] p-[20px] pb-0">
                             <p class="text-[20px] font-dmserif">
                                 @lang('shop::app.components.layouts.header.welcome')’
                                 {{ auth()->guard('customer')->user()->first_name }}
@@ -85,7 +85,7 @@
 
                         <p class="w-full mt-[12px] py-2px border border-[#3F183B]"></p>
 
-                        <div class="grid gap-[4px] mt-[10px] pb-[10px]">
+                        <div class="text-navyBlue grid gap-[4px] mt-[10px] pb-[10px]">
                             <a class="px-5 py-2 text-[16px] hover:navyBlue cursor-pointer"
                                 href="{{ route('shop.customers.account.profile.index') }}">
                                 @lang('shop::app.components.layouts.header.profile')
@@ -127,7 +127,7 @@
         <x-shop::dropdown position="bottom-left">
             <!-- Dropdown Toggler -->
             <x-slot:toggle>
-                <div class="flex gap-[10px] cursor-pointer" >
+                <div class="flex gap-[10px] cursor-pointer text-darkPurple" >
                     <x-css-menu>
                     </x-css-menu>
                 </div>
