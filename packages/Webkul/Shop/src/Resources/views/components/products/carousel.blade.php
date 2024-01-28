@@ -10,17 +10,17 @@
     <script type="text/x-template" id="v-products-carousel-template">
         <div class="container mt-20 max-lg:px-[30px] max-sm:mt-[30px]" v-if="! isLoading && products.length">
             <div class="flex justify-between">
-                <h3 class="text-[30px] font-dmserif max-sm:text-[25px]" v-text="title"></h3>
+                <h3 class="text-[30px] text-darkPurple font-dmserif max-sm:text-[25px]" v-text="title"></h3>
 
                 <div class="flex gap-8 justify-between items-center">
                     <span
-                        class="icon-arrow-left-stylish rtl:icon-arrow-right-stylish inline-block text-[24px] cursor-pointer"
+                        class="icon-arrow-left-stylish rtl:icon-arrow-right-stylish inline-block text-[24px] text-darkPurple cursor-pointer"
                         @click="swipeLeft"
                     >
                     </span>
 
                     <span
-                        class="icon-arrow-right-stylish rtl:icon-arrow-left-stylish inline-block text-[24px] cursor-pointer"
+                        class="icon-arrow-right-stylish rtl:icon-arrow-left-stylish inline-block text-[24px] text-darkPurple cursor-pointer"
                         @click="swipeRight"
                     >
                     </span>
@@ -38,13 +38,7 @@
                 </x-shop::products.card>
             </div>
 
-            <a
-                :href="navigationLink"
-                class="secondary-button block w-max mt-[60px] mx-auto py-[11px] px-[43px] rounded-[18px] text-base text-center"
-                v-if="navigationLink"
-            >
-                @lang('shop::app.components.products.carousel.view-all')
-            </a>
+           
         </div>
 
         <!-- Product Card Listing -->

@@ -42,7 +42,7 @@
                             class=""
                         >
                             <p
-                                class="text-center text-black text-[18px] max-sm:font-normal"
+                                class="text-center text-darkPurple text-[18px] max-sm:font-normal"
                                 v-text="category.name"
                             >
                             </p>
@@ -51,13 +51,13 @@
                 </div>
 
                 <span
-                    class="flex items-center justify-center absolute top-[37px] -left-[41px] w-[50px] h-[50px] bg-white border border-black rounded-full transition icon-arrow-left-stylish text-[25px] hover:bg-black hover:text-white max-lg:-left-[29px] cursor-pointer"
+                    class="flex items-center justify-center absolute top-[37px] -left-[41px] w-[50px] h-[50px] bg-white border border-black rounded-full transition icon-arrow-left-stylish text-[25px] hover:bg-darkPurple hover:text-white max-lg:-left-[29px] cursor-pointer"
                     @click="swipeLeft"
                 >
                 </span>
 
                 <span
-                    class="flex items-center justify-center absolute top-[37px] -right-[22px] w-[50px] h-[50px] bg-white border border-black rounded-full transition icon-arrow-right-stylish text-[25px] hover:bg-black hover:text-white max-lg:-right-[29px] cursor-pointer"
+                    class="flex items-center justify-center absolute top-[37px] -right-[22px] w-[50px] h-[50px] bg-white border border-black rounded-full transition icon-arrow-right-stylish text-[25px] hover:bg-darkPurple hover:text-white max-lg:-right-[29px] cursor-pointer"
                     @click="swipeRight"
                 >
                 </span>

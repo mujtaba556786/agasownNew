@@ -71,10 +71,10 @@
             </div>
 
             <div class="grid gap-2.5 content-start max-w-[291px]">
-                <p class="text-base" v-text="product.name"></p>
+                <p class="text-base" text-darkPurple v-text="product.name"></p>
 
                 <div
-                    class="flex gap-2.5 font-semibold text-lg"
+                    class="flex gap-2.5 text-darkPurple font-semibold text-lg"
                     v-html="product.price_html"
                 >
                 </div>
