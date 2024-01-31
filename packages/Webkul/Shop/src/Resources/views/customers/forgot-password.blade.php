@@ -15,7 +15,7 @@
         @lang('shop::app.customers.forgot-password.title')
     </x-slot>
 
-    <div class="container mt-20 max-1180:px-[20px]">
+    <div class="text-navyBlue container mt-20 max-1180:px-[20px]">
         {{-- Company Logo --}}
         
         {{-- Form Container --}}

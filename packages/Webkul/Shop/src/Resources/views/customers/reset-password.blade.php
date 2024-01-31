@@ -15,7 +15,7 @@
         @lang('shop::app.customers.reset-password.title')
     </x-slot>
 
-    <div class="container mt-20 max-1180:px-[20px]">
+    <div class="text-navyBlue container mt-20 max-1180:px-[20px]">
         {{-- Company Logo --}}
         <div class="flex gap-x-[54px] items-center max-[1180px]:gap-x-[35px]">
             <a

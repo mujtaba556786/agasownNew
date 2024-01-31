@@ -27,7 +27,7 @@
 
                 <!-- Reviews Information -->
                 <template v-else>
-                    <div class="flex-auto">
+                    <div class="text-navyBlue flex-auto">
                         <div class="max-md:max-w-full">
                             <h2 class="text-[26px] font-medium">
                                 @lang('shop::app.customers.account.reviews.title')

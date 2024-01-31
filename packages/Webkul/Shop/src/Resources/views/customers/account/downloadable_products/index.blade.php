@@ -9,7 +9,7 @@
         <x-shop::breadcrumbs name="downloadable-products"></x-shop::breadcrumbs>
     @endSection
 
-    <div class="flex-auto">
+    <div class="text-navyBlue flex-auto">
         <div class="max-md:max-w-full">
             <h2 class="text-[26px] font-medium">
                 @lang('shop::app.customers.account.downloadable-products.name')

@@ -9,7 +9,7 @@
         <x-shop::breadcrumbs name="profile"></x-shop::breadcrumbs>
     @endSection
 
-    <div class="flex justify-between items-center">
+    <div class="text-navyBlue flex justify-between items-center">
         <h2 class="text-[26px] font-medium">
             @lang('shop::app.customers.account.profile.title')
         </h2>
@@ -23,7 +23,7 @@
     </div>
 
     {{-- Profile Information --}}
-    <div class="grid grid-cols-1 gap-y-[25px] mt-[30px]">
+    <div class="text-navyBlue grid grid-cols-1 gap-y-[25px] mt-[30px]">
         <div class="grid grid-cols-[2fr_3fr] w-full px-[30px] py-[12px] border-b-[1px] border-[#E9E9E9]">
             <p class="text-[14px] font-medium">
                 @lang('shop::app.customers.account.profile.first-name')

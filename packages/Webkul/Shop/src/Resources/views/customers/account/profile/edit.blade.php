@@ -9,7 +9,7 @@
         <x-shop::breadcrumbs name="profile.edit"></x-shop::breadcrumbs>
     @endSection
 
-    <h2 class="text-[26px] font-medium">
+    <h2 class="text-navyBlue text-[26px] font-medium">
         @lang('shop::app.customers.account.profile.edit-profile')
     </h2>
 

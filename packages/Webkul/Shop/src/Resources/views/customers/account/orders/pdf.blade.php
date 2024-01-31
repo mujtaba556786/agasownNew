@@ -158,7 +158,7 @@
     </head>
 
     <body style="background-image: none; background-color: #fff;">
-        <div class="container">
+        <div class="text-navyBlue container">
             <div>
                 <div class="row">
                     <div class="col-12 header">

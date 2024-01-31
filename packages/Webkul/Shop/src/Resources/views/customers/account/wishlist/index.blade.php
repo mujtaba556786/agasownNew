@@ -17,7 +17,7 @@
 
     @pushOnce('scripts')
         <script type="text/x-template" id="v-wishlist-products-template">
-            <div>
+            <div class="text-navyBlue">
                 <!-- Wishlist Shimmer Effect -->
                 <template v-if="isLoading">
                     <x-shop::shimmer.customers.account.wishlist :count="4"></x-shop::shimmer.customers.account.wishlist>

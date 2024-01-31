@@ -1211,7 +1211,7 @@ return [
             ],
 
             'view' => [
-                'address'                     => 'Adresse',
+                'address'                     => '',
                 'back-btn'                    => 'Zurück',
                 'add-note'                    => 'Notiz hinzufügen',
                 'active'                      => 'Aktiv',

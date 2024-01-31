@@ -9,7 +9,7 @@
         <x-shop::breadcrumbs name="orders.view" :entity="$order"></x-shop::breadcrumbs>
     @endSection
 
-    <div class="flex justify-between items-center">
+    <div class="text-navyBlue flex justify-between items-center">
         <div class="">
             <h2 class="text-[26px] font-medium">
                 @lang('shop::app.customers.account.orders.view.page-title', ['order_id' => $order->increment_id])
@@ -44,7 +44,7 @@
     {!! view_render_event('bagisto.shop.customers.account.orders.view.before', ['order' => $order]) !!}
 
     {{-- Order view tabs --}}
-    <div>
+    <div class="text-navyBlue">
         <x-shop::tabs class="mt-5">
             <x-shop::tabs.item
                 class="!px-0"

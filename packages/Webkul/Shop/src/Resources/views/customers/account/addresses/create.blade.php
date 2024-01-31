@@ -9,7 +9,7 @@
         <x-shop::breadcrumbs name="addresses.create"></x-shop::breadcrumbs>
     @endSection
 
-    <div class="flex justify-between items-center">
+    <div class="text-navyBlue flex justify-between items-center">
         <div class="">
             <h2 class="text-[26px] font-medium">
                 @lang('shop::app.customers.account.addresses.add-address')

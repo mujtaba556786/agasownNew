@@ -8,7 +8,7 @@
     @section('breadcrumbs')
         <x-shop::breadcrumbs name="addresses"></x-shop::breadcrumbs>
     @endSection
-    <div class="flex justify-between items-center">
+    <div class="text-navyBlue flex justify-between items-center">
         <div class="">
             <h2 class="text-[26px] font-medium">
                 @lang('shop::app.customers.account.addresses.title')
@@ -30,7 +30,7 @@
 
         {!! view_render_event('bagisto.shop.customers.account.addresses.list.before', ['addresses' => $addresses]) !!}
 
-        <div class="grid grid-cols-2 gap-[20px] mt-[60px] max-1060:grid-cols-[1fr]">
+        <div class="text-navyBlue grid grid-cols-2 gap-[20px] mt-[60px] max-1060:grid-cols-[1fr]">
             @foreach ($addresses as $address)
                 <div class="p-[20px] border border-[#e5e5e5] rounded-[12px] max-sm:flex-wrap">
                     <div class="flex justify-between items-center">
@@ -114,7 +114,7 @@
 
     @else
         {{-- Address Empty Page --}}
-        <div class="grid items-center justify-items-center place-content-center w-[100%] m-auto h-[476px] text-center">
+        <div class="text-navyBlue grid items-center justify-items-center place-content-center w-[100%] m-auto h-[476px] text-center">
             <img 
                 class="" 
                 src="{{ bagisto_asset('images/no-address.png') }}" 
